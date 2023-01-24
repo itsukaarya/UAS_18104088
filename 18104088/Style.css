@@ -1,0 +1,61 @@
+#harga {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#harga td,#harga th {
+    border: 1px solid black;
+    padding: 8px;
+
+}
+
+#harga th {
+    background-color: bisque;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: white;
+}
+
+#harga tr:nth-child(odd){
+    background-color: seashell;
+    
+}
+
+#harga tr:nth-child(even){
+    background-color: blanchedalmond;
+}
+
+#harga tr:hover{
+    background-color: burlywood;
+}
+
+#img {
+    max-height: 400px;
+}
+
+.menu li{
+    float: left;
+    color: rgb(107, 131, 131);
+}
+
+.menu li a {
+    display: block;
+    color: rgb(19, 124, 124);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu ul {
+    background-color: black;
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0%;
+}
+
+.menu a:hover {
+    background-color: rgb(65, 62, 59);
+}
